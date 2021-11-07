@@ -1,0 +1,15 @@
+In order to run this assignment, all you have to do is run main.py. Inside main.py there are seven functions. These
+functions are: get_data(), ClusterTuning(), ClusterAnalysis(), ReductionAnalysis(), ReductionClusteringAnalysis(),
+ReductionNNAnalysis(), and ReductionClusteringNNAnalysis(). get_data() simply retrieves the data and prepares the data
+for use in the project. The rest of the funtions serve to complete portions of the project and are performed in the
+order listed. ClusterTuning() tunes the kmeans and expectation maximum cluster algorithms. ClusterAnalysis() then
+analyzes each of the tuned clustering algorithms. ReductionAnalysis() analyzes the four reduction techniques utilized.
+ReductionClusteringAnalysis() analyzes the clustering algorithms when the reduction is used prior. ReductionNNAnalysis()
+analyzes the NN when reduction is first performed. Finally, ReductionClusteringNNAnalysis() analyzes the NN when the
+input includes the clustering outcome after reduction was first performed. In order to run all of these, simply run
+main.py. Simply comment out the function you would not like to run to skip one.
+
+Inside this project folder is also a data folder containing the data for both the income and music problems.
+
+The rest of the files are images produced by running the analyses functions listed out above and will be reproduced each
+time the functions are run.
